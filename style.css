@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(44, 40, 40);
+}
+
+.container{
+    background-color: white;
+    min-height: 100vh;
+    max-width: 80%;
+    margin: auto;
+}
+
+input{
+    padding: 10px 20px;
+    border: 1px solid rgb(236, 234, 234);
+    font: 100 1.2rem sans-serif;
+    width: 40vmax;
+    outline: none;
+    margin: 20px 0;
+}
+
+button{
+    padding: 10px 20px;
+    border: 1px solid rgb(236, 234, 234);
+    font: 100 1.2rem sans-serif;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+button:hover{
+    background-color: lightgray;
+}
+
+.tag{
+    background-color: rgb(128, 44, 44);
+    color: white;
+    width: 28.4%;
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+}
